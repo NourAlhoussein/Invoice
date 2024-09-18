@@ -1,0 +1,45 @@
+.line-class {
+    width: 100%;
+    background-color: #f58da2;
+    height: 2px;
+}
+
+.font-12px {
+    font-size: 12px;
+}
+
+.table {
+    background-color: #f58da2;
+    --bs-table-hover-color: white;
+    --bs-table-hover-bg: #f58da2;
+    width: 100%;
+    margin-bottom: 1rem;
+    vertical-align: top;
+    border-color: #f58da2;
+}
+
+.footer-back {
+    background-color: #ECB330;
+}
+
+.dancing-script {
+    font-family: cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.footer-links:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .fs-6 {
+        font-size: 12px !important;
+    }
+
+    h1 {
+        font-size: 25px !important;
+    }
+}
